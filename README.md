@@ -15,5 +15,5 @@ use<br>
 <pre> npm run RegisterGuild </pre>
 for registing command to guild<br>
 or use
-<pre> npm run RegisterGlobal </pre> <br>
+<pre> npm run RegisterGlobal </pre>
 for registing command globally
