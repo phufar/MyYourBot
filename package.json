@@ -1,16 +1,18 @@
 {
   "name": "discordbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "begginer discord bot",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "RegisterGuild" : "node deployGuildsComs.js",
-    "RegisterGlobal": "node deployGlobalComs.js"
+    "RegisterGlobal": "node deployGlobalComs.js",
+    "RegisterAll" : "node deployGlobalComs.js && node deployGuildsComs.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "phufar",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^14.19.3"
